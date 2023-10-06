@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="todolist.css" />
+    <link rel="web icon" type="png" href="tabpic.png" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="todo-app">
+        <h2>To-Do List <img src="checklist.png" alt="img" /></h2>
+
+        <div class="row">
+          <input type="text" placeholder="Write your task" id="input-box" />
+          <button onclick="addtask()">Add</button>
+        </div>
+        <!-- list items -->
+        <h3>Your Tasks</h3>
+        <ul id="list-container">
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <h3>Designed by Mohammad Kaif</h3>
+    </footer>
+
+    <script src="todolist.js"></script>
+  </body>
+</html>
